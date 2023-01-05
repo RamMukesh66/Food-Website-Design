@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="p-3 text-light">
+    <section class="rounded-4 p-2 mb-3">
+        <nav class="my-auto container pt-3">
+            <div class="d-flex justify-content-between align-items-baseline">
+                <div class="p-2">
+                    <h3 class="fw-bold">FoodCourt</h3>
+                </div>
+                <button class="btn text-light border-0 d-lg-none d-block" id="menubar">
+                    <ion-icon name="menu-outline" class="fs-2"></ion-icon>
+                </button>
+                <div class="d-lg-block d-none fw-semibold">
+                    <ul class="d-flex gap-4 px-5 menubar">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-none d-lg-none fw-semibold" id="downbar">
+                <ul class="gap-4 px-3 menubar">
+                    <li class="pt-3 text-end"><a href="">Home</a></li>
+                    <li class="pt-3 text-end"><a href="#categories">Categories</a></li>
+                    <li class="pt-3 text-end"><a href="#product">Product</a></li>
+                    <li class="pt-3 text-end"><a href="#about">About</a></li>
+                    <li class="pt-3 text-end"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex flex-column py-lg-3 py-2 text-center text-lg-start">
+                    <div class="mb-4">
+                        <h2 class="py-3 display-4 fw-bold">Get Your Food Faster! The Best Hot Fried Chicken Ever.</h2>
+                        <p class="h4">Food Court is an American fast food restaurant chain headquartered.</p>
+                    </div>
+                    <div class="">
+                        <button class="btn btn-light text-dark p-2 fw-bold">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img src="../Images/Burger.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="rounded-4 p-2 mb-3" id="categories">
+        <div class="contanier">
+            <h3 class="mt-3 text-center display-5 fw-semibold">CATEGORIES</h3>
+            <div class="row p-4">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center pb-2">
+                    <div class="card text-center w-100 border" id="card">
+                        <div class="card-body pt-5">
+                            <h3>CHICKEN BURGER</h3>
+                            <a href="" class="btn btn-light text-dark fw-semibold mt-2">Order Now</a>
+                        </div>
+                        <img src="../Images/Lasagne Pastitsio.png" class="card-img-bottom" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12 pb-1">
+                            <div class="card text-center border" id="card">
+                                <div class="row">
+                                    <div class="col-lg-5 col-12 mt-lg-0 mt-5 d-flex justify-content-center align-items-center ">
+                                        <div class="card-body">
+                                            <h3>PIZZA</h3>
+                                            <a href="" class="btn btn-light text-dark fw-semibold mt-2">Order Now</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-12">
+                                        <img src="../Images/Pizza.png" class="img-fluid my-4" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pt-1">
+                            <div class="card text-center border" id="card">
+                                <div class="row">
+                                    <div
+                                        class="col-lg-5 col-12 mt-lg-0 mt-5 d-flex justify-content-center align-items-center">
+                                        <div class="card-body">
+                                            <h3>SHAWARMA</h3>
+                                            <a href="" class="btn btn-light text-dark fw-semibold mt-2">Order Now</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-12">
+                                        <img src="../Images/Shawarma .png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rounded-4 p-2 mb-3" id="product">
+        <div class="container">
+            <h3 class="display-5 fw-semibold my-3 text-center">SIGNATURE DISH</h3>
+            <div class="row py-2 my-2 text-center">
+                <div class="col-lg-3 my-3">
+                    <div class="card border" id="card">
+                        <img src="../Images/French Fries.png" alt="">
+                        <div class="card-body">
+                            <h3 class="fs-2 fw-semibold ">French Fries</h3>
+                            <p class="fs-4">Rate : 120</p>
+                            <div class="rating">
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  my-3">
+                    <div class="card border" id="card">
+                        <img src="../Images/Burger.png" alt="">
+                        <div class="card-body">
+                            <h3 class="fs-2 fw-semibold">Chicken Burger</h3>
+                            <p class="fs-4">Rate : 150</p>
+                            <div class="rating">
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3  my-3">
+                    <div class="card border" id="card">
+                        <img src="../Images/Pizza.png" alt="">
+                        <div class="card-body">
+                            <h3 class="fs-2 fw-semibold">Pizza</h3>
+                            <p class="fs-4">Rate : 120</p>
+                            <div class="rating">
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star-half" class="text-warning"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  my-3">
+                    <div class="card border" id="card">
+                        <img src="../Images/Barbecue Chicken.png" alt="">
+                        <div class="card-body">
+                            <h3 class="fs-2 fw-semibold">Barbecue Grill</h3>
+                            <p class="fs-4">Rate : 150</p>
+                            <div class="rating">
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star" class="text-warning"></ion-icon>
+                                <ion-icon name="star-outline" class="text-warning"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rounded-4 p-2 mb-3" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 p-5 text-lg-start text-center">
+                    <h3 class="text-warning">ABOUT US</h3>
+                    <h3 class="display-5 fw-semibold">FOOD COURT RESTAURANT</h3>
+                    <P class="lh-base lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores animi
+                        explicabo fugit ipsum
+                        molestiae accusantium, repellat optio quisquam veniam, ipsa quasi voluptates in quibusdam
+                        veritatis itaque? Esse minus at, sequi consequuntur dolorem ut eaque eos quaerat ea, dignissimos
+                        quidem, ipsam ipsum obcaecati. A, voluptate ipsum quis blanditiis rem ipsam earum?</P>
+                </div>
+                <div class="col-lg-6 float-md-start p-5">
+                    <img src="../Images/about.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rounded-4 p-2 mb-3" id="contact">
+        <div class="container text-center my-5 p-3">
+            <h3 class="display-5 fw-semibold">JOIN OUR NEWSLETTER</h3>
+            <P class="d-block w-75 mx-auto py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nostrum iste perferendis quae aperiam
+                a ex, asperiores facilis id Lorem ipsum dolor sit amet.</P>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control border p-lg-3 p-2" id="mailbox"
+                    placeholder="Enter Your Email">
+                <button class="btn btn-warning text-light border px-lg-5 fw-semibold" type="button" id="">SUBSCRIBE</button>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
